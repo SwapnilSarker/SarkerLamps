@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+<link rel="script" href="script.js">
+<link rel="icon" href="my logo.png" type="image/png">
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="menu.png" class="menu-img" alt="Image of menu">
+            <img src="my logo.png"width=200px class="logo" alt="Image of logo">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="collections.html">Collections</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+          </nav>
+<body>
+    <div class="formcontainer">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+        </div>
+        
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob">
+        </div>
+        
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      <div id="response"></div>
+    </div>
+    
+    <script src="script.js"></script><script>
+    var btn =document.getElementById("btn");
+    var light =document.getElementById("light");
+
+
+    function toggleBtn(){
+btn.classList.toggle("active")     ;  
+light.classList.toggle("on")   ;     
+
+    }
+</script>
+</body>
+
+</html>

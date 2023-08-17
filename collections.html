@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="script" href="script.js">
+<link rel="icon" href="my logo.png" type="image/png">
+
+<title>Lamp Collection</title>
+</head>
+<body>
+  
+    <div class="hero">
+    <header>
+        <nav>
+            <img src="menu.png" class="menu-img" alt="Image of menu">
+            <img src="my-logo250x150.png" class="logo" alt="Image of logo">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="collections.html">Collection</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+          </nav>
+    
+  </header>
+  
+  <section class="lamp-collection">
+    <div class="lamp">
+      <img src="lamp1.jpg" alt="Lamp 1">
+      <h3>Model 1</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$99.99</td>
+        </tr>
+        </table>
+        <button class="order-button">Order Now</button>
+      </div>
+      
+      <div class="modal" id="orderModal">
+        <h2>Your order has been placed.It will be delivered in 3 days</h2>
+      </div>
+      <script>
+  // Get the "Order Now" button element
+  const orderButton = document.querySelector('.order-button');
+  
+  // Get the modal and close button elements
+  const modal = document.getElementById('orderModal');
+  const closeButton = modal.querySelector('.close-button');
+  
+  // Add a click event listener to the button to show the modal
+  orderButton.addEventListener('click', function() {
+    modal.style.display = 'block';
+  });
+  
+  // Add a click event listener to the close button to hide the modal
+  closeButton.addEventListener('click', function() {
+    modal.style.display = 'none';
+  });
+</script>
+      
+          <div class="lamp">
+      <img src="lamp2.jpg" alt="Lamp 2">
+      <h3>Model 2</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp3.jpg" alt="Lamp 3">
+      <h3>Model 3</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp4.jpg" alt="Lamp 4">
+      <h3>Model 4</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="Lamp4.jpg" alt="Lamp 5">
+      <h3>Model 5</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="Lamp 6.jpg"alt="Lamp 6">
+      <h3>Model 6</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp7.jpg" alt="Lamp 7">
+      <h3>Model 7</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp8.jpg" alt="Lamp 8">
+      <h3>Model 8</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp9.jpg" alt="Lamp 9">
+      <h3>Model 9</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="Lamp 6.jpg" alt="Lamp 10">
+      <h3>Model 10</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp9.jpg" alt="Lamp 8">
+      <h3>Model 11</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+    <div class="lamp">
+      <img src="lamp8.jpg" alt="Lamp 8">
+      <h3>Model 12</h3>
+      <table>
+        <tr>
+          <td>Price:</td>
+          <td>$129.99</td>
+        </tr>
+
+      </table>
+      <button class="order-button">Order Now</button>
+
+    </div>
+  </section>
+
+  <footer>
+    <!-- Your footer content here -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+</html>

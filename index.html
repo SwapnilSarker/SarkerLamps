@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Project</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="icon" href="my logo.png" type="image/png">
+
+<style>
+html {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="menu.png" class="menu-img" alt="Image of menu">
+            <img src="my-logo250x150.png" class="logo" alt="Image of logo">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="collections.html">Collection</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+          </nav>
+          
+<div class="lamp-container">
+    <img src="lamp.png" class="Lamp" alt="image of lamp">
+    <img src="light.png" class="Light" id="light" alt="image of light">
+    
+</div>
+<div class="timer-container">
+    <div class="timer-box">
+      <h2>Mega Sale Time</h2>
+      
+      <div class="time-row">
+        <div class="time-box">
+          <h3 id="hours">19</h3>
+          <span>Hours</span>
+        </div>
+        <div class="time-box">
+          <h3 id="minutes">15</h3>
+          <span>Minutes</span>
+        </div>
+        <div class="time-box">
+          <h3 id="seconds">25</h3>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+<div class="text-container">    
+    <h1>illuminating Every Moment</h1>
+    
+    <p>
+        Welcome to Sarker Lamps, your destination for illuminating spaces with elegance and innovation. With a passion for crafting exceptional lighting solutions, we blend timeless design with cutting-edge technology to create lamps that inspire. From modern aesthetics to classic charm, our diverse collection caters to various styles, ensuring the perfect fit for any space. Our commitment to quality craftsmanship and sustainability defines us. Illuminate your world with Sarker Lamps today.</p>
+    <a href="collections.html" id="nextpage">Check all Collections</a>
+</div>
+<div class="control">
+    <p>04</p>
+    <div class="line"><span></span></div>
+    <p>05</p>
+</div>
+<script>
+    var btn =document.getElementById("btn");
+    var light =document.getElementById("light");
+
+
+    function toggleBtn(){
+btn.classList.toggle("active")     ;  
+light.classList.toggle("on")   ;     
+
+    }
+</script>
+</body>
+</div>
+</html>
